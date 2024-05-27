@@ -86,13 +86,13 @@ h2 {
   justify-content: space-between;
 }
 
-.service-card strong {
+.service-details strong {
   color: #333;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.service-card p {
+.service-details p {
   flex: 1;
   color: #666;
   font-size: 14px;
@@ -113,6 +113,7 @@ h2 {
   cursor: pointer;
   font-size: 14px;
   transition: background 0.3s ease;
+  margin-left: 10px;
 }
 
 .service-actions button:hover {
@@ -126,4 +127,28 @@ h2 {
 
 .service-actions button.edit:hover {
   background: #e0a800;
+}
+
+/* Estilo do rodapé */
+footer {
+  background: #f4f4f4;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #333;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
 }

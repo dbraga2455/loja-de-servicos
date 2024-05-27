@@ -100,7 +100,13 @@ export const App = () => {
           </div>
         ))}
       </div>
+      
+      {/* Rodapé com informações pedidas pelo prof */}
+      <footer>
+        <p>121 - DESENVOLVIMENTO DE APLICAÇÕES MÓVEIS 2024/1 </p>
+        <p>Daniel Gonçalves Braga</p>
+        <p>2021100990</p>
+      </footer>
     </div>
   );
 };
-
